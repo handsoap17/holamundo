@@ -1,3 +1,4 @@
+
 #include <iostream>
 
 int main()
@@ -7,6 +8,9 @@ cout<<"Hola Mundo"<<endl;
 int i =0;
 i++;
 cout<<i;
-
+if(i == 1)
+{
+i++;
+}
 return 0;
 }
